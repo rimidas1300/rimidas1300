@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="115032" started-at="2020-04-15T14:13:55Z" finished-at="2020-04-15T14:15:50Z">
+  <suite name="Default suite" duration-ms="32579" started-at="2020-04-16T17:27:48Z" finished-at="2020-04-16T17:28:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="115032" started-at="2020-04-15T14:13:55Z" finished-at="2020-04-15T14:15:50Z">
-      <class name="com.training.sanity.tests.Week2_Assignment_TestCase">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="setUpBeforeClass" is-config="true" duration-ms="31" started-at="2020-04-15T19:43:55Z" finished-at="2020-04-15T19:43:56Z">
+    <test name="Default test" duration-ms="32579" started-at="2020-04-16T17:27:48Z" finished-at="2020-04-16T17:28:20Z">
+      <class name="com.training.sanity.tests.Week3_Assignment_TestCase">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Week3_Assignment_TestCase@66a3ffec]" name="setUpBeforeClass" is-config="true" duration-ms="9" started-at="2020-04-16T22:57:48Z" finished-at="2020-04-16T22:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="setUp" is-config="true" duration-ms="15965" started-at="2020-04-15T19:43:56Z" finished-at="2020-04-15T19:44:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Week3_Assignment_TestCase@66a3ffec]" name="setUp" is-config="true" duration-ms="15614" started-at="2020-04-16T22:57:48Z" finished-at="2020-04-16T22:58:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="validLoginTest" duration-ms="14938" started-at="2020-04-15T19:44:11Z" finished-at="2020-04-15T19:44:26Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.sanity.tests.Week3_Assignment_TestCase@66a3ffec]" name="validLoginTest" duration-ms="15068" started-at="2020-04-16T22:58:03Z" finished-at="2020-04-16T22:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="tearDown" is-config="true" duration-ms="1908" started-at="2020-04-15T19:44:26Z" finished-at="2020-04-15T19:44:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Week3_Assignment_TestCase@66a3ffec]" name="tearDown" is-config="true" duration-ms="1874" started-at="2020-04-16T22:58:19Z" finished-at="2020-04-16T22:58:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="setUp" is-config="true" duration-ms="14270" started-at="2020-04-15T19:44:28Z" finished-at="2020-04-15T19:44:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest2()[pri:2, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="validLoginTest2" duration-ms="15108" started-at="2020-04-15T19:44:43Z" finished-at="2020-04-15T19:44:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="tearDown" is-config="true" duration-ms="1817" started-at="2020-04-15T19:44:58Z" finished-at="2020-04-15T19:45:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="setUp" is-config="true" duration-ms="14250" started-at="2020-04-15T19:45:00Z" finished-at="2020-04-15T19:45:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest3()[pri:3, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="validLoginTest3" duration-ms="34941" started-at="2020-04-15T19:45:14Z" finished-at="2020-04-15T19:45:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Week2_Assignment_TestCase@66a3ffec]" name="tearDown" is-config="true" duration-ms="1765" started-at="2020-04-15T19:45:49Z" finished-at="2020-04-15T19:45:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Week2_Assignment_TestCase -->
+      </class> <!-- com.training.sanity.tests.Week3_Assignment_TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
